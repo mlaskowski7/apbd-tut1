@@ -6,4 +6,9 @@ public static class Tasks
     {
         return intArray.Average();
     }
+
+    public static int GetMax(int[] intArray)
+    {
+        return intArray.Max();
+    }
 }
